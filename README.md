@@ -1,6 +1,8 @@
 ### Hi there 👋
 Working on things.  [mrbuilder](https://mr-builder.github.io) and stuff.  
 
+#### Here are a few folks who think I'm cool:
+- [Zaid A](https://github.com/beatzball)
 
 <!--
 **jspears/jspears** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
