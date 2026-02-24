@@ -18,3 +18,21 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+My git aliases look like
+
+```
+[alias]
+        undo = checkout origin/main
+        last = log -1 HEAD
+        ignore = "!f() { for f in \"$@\"; do echo \"$f\" >> .git/info/exclude; done; }; f"
+        unignore = "!f() { for f in \"$@\"; do sed -i \"\" \"\\\\|^${f}$|d\" .git/info/exclude; done; }; f"
+        ls = branch  --sort=committerdate
+        alias = config --global alias.
+        main = switch main
+        wip = commit -nam 'wip'
+        back = "!f() { ~/bin/git-back.sh $@ | xargs git switch; }; f"
+        unwip = "!f() { ~/bin/git-unwip.sh \"$@\"; }; f"
+
+
+```
